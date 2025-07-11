@@ -43,6 +43,16 @@ button:hover{
     color: black;
 }
 
+.section-title{
+    font-size: 42px;
+}
+
+h2{
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+}
+
 /* Header Styles  */
 header{
     padding: 0 150px;
