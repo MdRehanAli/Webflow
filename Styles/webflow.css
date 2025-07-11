@@ -11,6 +11,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #F5F8FF;
 }
 
 main {
@@ -45,12 +46,21 @@ button:hover {
 
 .section-title {
     font-size: 42px;
+    padding: 0;
+    margin: 0;
 }
 
 h2 {
     font-family: "Inter", sans-serif;
     font-size: 80px;
     font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    color: rgba(0, 0, 0, 0.50);
+    margin: 20px 0;
 }
 
 h4 {
@@ -58,10 +68,14 @@ h4 {
     margin: 0;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.centered-text {
+    text-align: center;
 }
 
 /* Header Styles  */
@@ -108,28 +122,51 @@ nav {
     border-radius: 48px;
 }
 
+/* Users Section */
+.users-section {
+    border-radius: 24px;
+    background: rgba(78, 71, 255, 0.10);
+    padding: 50px 80px;
+    margin: 0;
+}
+
+.users{
+    padding: 0 50px;
+    margin-top: 40px;
+
+}
+
 /* Ratings Section */
+
+.ratings-section{
+    padding: 135px 0;
+}
 
 .star-icon {
     color: orange;
     display: flex;
     gap: 5px;
+    padding-bottom: 24px;
 }
 
 .Users-comment {}
 
 .reviews {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
+    gap: 25px;
+    padding-top: 50px;
+}
+
+.review{
+    background-color: white;
+    border-radius: 15px;
+    padding: 25px;
+    border-color: orange;
+    margin: 0;
 }
 
 .user {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     font-family: "Inter", sans-serif;
+    padding-top: 24px;
 }
 
 .reviewer-image {
@@ -139,19 +176,86 @@ nav {
 .reviewer {
     font-weight: 700;
     color: #757575;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-left{
+    justify-content: left;
+    gap: 20px;
+    align-items: center;
+}
+
+.date{
+    margin: 10px 0 0 0;
 }
 
 /* Subscription Section */
+.subscription {
+    background-color: white;
+    border-radius: 15px;
+    padding: 70px 0;
+}
+
+.webflow-cover {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.web-image {
+    border-radius: 48px;
+}
 
 
 /* Form Section */
-
-
-/* Footer Section */
-footer{
-    padding: 0 150px;
+.form {
+    gap: 115px;
+    padding: 100px 0;
 }
 
-li{
+.form-title {
+    font-size: 97px;
+    font-weight: 700;
+}
+
+.form-template {
+    width: 45%;
+}
+
+input,
+textarea {
+    padding: 10px;
+    width: 100%;
+}
+
+.width-button{
+    display: block;
+    width: 100%;
+}
+
+/* Footer Section */
+.footer {
+    width: 530px;
+}
+
+footer {
+    padding: 100px 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.footer-logo {
+    font-size: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+
+li {
     list-style: none;
+    text-decoration: none;
 }

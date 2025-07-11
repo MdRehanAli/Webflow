@@ -40,7 +40,7 @@
         <section class="action-section">
             <div>
                 <h3 class="section-title">See It in Action</h3>
-                <p>Explore the live preview and imagine your brand in this bold new look.</p>
+                <p>Explore the live preview and imagine your <br> brand in this bold new look.</p>
                 <a href=""><button>Launch Live Preview</button></a>
             </div>
             <div>
@@ -49,29 +49,29 @@
         </section>
 
         <!-- Users Section  -->
-        <section>
-            <h3 class="section-title">Joined Thousands of Productive Users</h3>
-            <div class="users">
+        <section class="users-section">
+            <h3 class="section-title centered-text">Joined Thousands of Productive Users</h3>
+            <div class="users flex centered-text">
                 <div>
-                    <h2 class="text-primary">50K</h2>
+                    <h2 class="text-primary">35K</h2>
                     <p>Active Users</p>
                 </div>
                 <div>
-                    <h2 class="text-primary">2M+</h2>
+                    <h2 class="text-primary">6M+</h2>
                     <p>Focus Sessions</p>
                 </div>
                 <div>
-                    <h2 class="text-primary">95%</h2>
+                    <h2 class="text-primary">98%</h2>
                     <p>Satisfaction Rate</p>
                 </div>
             </div>
         </section>
 
         <!-- Ratings Section -->
-        <section>
-            <h3 class="section-title">What our users say</h3>
-            <div class="reviews">
-                <div>
+        <section class="ratings-section">
+            <h3 class="section-title centered-text">What our users say</h3>
+            <div class="reviews flex">
+                <div class="review">
                     <div class="star-icon">
                         <div><i class="fa-solid fa-star"></i></div>
                         <div><i class="fa-solid fa-star"></i></div>
@@ -81,15 +81,15 @@
                     </div>
                     <h4>Loved by Designers</h4>
                     <p class="Users-comment">This template instantly leveled up our presence.” – Studio Vertex</p>
-                    <div class="user">
+                    <div class="user flex flex-left">
                         <img class="reviewer-image" src="Assets/avatar.png" alt="User">
                         <div>
-                            <p class="reviewer">Reviewer name</p>
-                            <p>Date</p>
+                            <p class="reviewer">Alysha Zain</p>
+                            <p class="date">Date: 27.05.24</p>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="review">
                     <div class="star-icon">
                         <div><i class="fa-solid fa-star"></i></div>
                         <div><i class="fa-solid fa-star"></i></div>
@@ -99,15 +99,15 @@
                     </div>
                     <h4>Loved by Designers</h4>
                     <p class="Users-comment">This template instantly leveled up our presence.” – Studio Vertex</p>
-                    <div class="user">
+                    <div class="user flex flex-left">
                         <img class="reviewer-image" src="Assets/avatar.png" alt="User">
                         <div>
-                            <p class="reviewer">Reviewer name</p>
-                            <p>Date</p>
+                            <p class="reviewer">Francia Rodrigez</p>
+                            <p class="date">Date: 13.08.24</p>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="review">
                     <div class="star-icon">
                         <div><i class="fa-solid fa-star"></i></div>
                         <div><i class="fa-solid fa-star"></i></div>
@@ -117,33 +117,36 @@
                     </div>
                     <h4>Loved by Designers</h4>
                     <p class="Users-comment">This template instantly leveled up our presence.” – Studio Vertex</p>
-                    <div class="user">
+                    <div class="user flex flex-left">
                         <img class="reviewer-image" src="Assets/avatar.png" alt="User">
                         <div>
-                            <p class="reviewer">Reviewer name</p>
-                            <p>Date</p>
+                            <p class="reviewer">Nayomi Scott</p>
+                            <p class="date">Date: 09.03.25</p>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </section>
 
         <!-- Subscription Section -->
-        <section>
+        <section class="subscription">
             <div>
-                <h3 class="section-title">Ready to focus better</h3>
-                <p>This template instantly leveled up our presence.” – Studio Vertex</p>
+                <h3 class="section-title centered-text">Ready to focus better</h3>
+                <p class="centered-text">This template instantly leveled up our presence.” – Studio Vertex</p>
                 <a class="item-center" href=""><button>Get Started Free</button></a>
             </div>
-            <img src="Assets/wc-big.png" alt="Webflow Cover Image">
+            <div class="webflow-cover">
+                <img class="web-image" src="Assets/wc-big.png" alt="Webflow Cover Image">
+            </div>
         </section>
 
         <!-- Form Section -->
-        <Section class="form">
+        <Section class="form flex">
             <div>
-                <h1>Let’s Get in Touch</h1>
+                <h1 class="form-title">Let’s Get in <br> Touch</h1>
             </div>
-            <div>
+            <div class="form-template">
                 <form action="">
                     <div>
                         <label for="">Email</label><br>
@@ -157,7 +160,7 @@
                         <label for="">Message</label><br>
                         <textarea name="" id="" placeholder="write your message...." rows="10" cols="30"></textarea>
                     </div>
-                    <a class="item-center" href=""><button>Get in Touch</button></a>
+                    <a class="item-center width-button" href=""><button>Get in Touch</button></a>
                 </form>
             </div>
         </Section>
@@ -166,17 +169,19 @@
 
     <!-- Footer Section -->
     <footer>
-        <h1 class="nav-title text-primary">LOGO</h1>
-        <p>Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
-        <div>
-            <ul class="flex">
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">How it Works</a></li>
-                <li><a href="">Services</a></li>
-            </ul>
+        <div class="footer">
+            <h1 class="nav-title text-primary footer-logo">LOGO</h1>
+            <p>Ready to elevate your online presence? Contact us today to discuss <br> your project and discover how we
+                can bring your vision to life.</p>
+            <div>
+                <ul class="flex">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">How it Works</a></li>
+                    <li><a href="">Services</a></li>
+                </ul>
+            </div>
         </div>
-
     </footer>
 </body>
 
