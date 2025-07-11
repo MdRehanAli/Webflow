@@ -58,6 +58,12 @@ h4 {
     margin: 0;
 }
 
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Header Styles  */
 header {
     padding: 0 150px;
@@ -69,9 +75,6 @@ header {
 
 /* Navigation bar Styles */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 50px 0;
 }
 
@@ -139,3 +142,6 @@ nav {
 }
 
 /* Subscription Section */
+
+
+/* Form Section */
