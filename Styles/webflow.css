@@ -78,3 +78,14 @@ nav {
     justify-content: center;
 }
 
+/* Action Section */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 116px 0;
+}
+
+.action-image{
+    border-radius: 48px;
+}
