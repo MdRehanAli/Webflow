@@ -145,3 +145,13 @@ nav {
 
 
 /* Form Section */
+
+
+/* Footer Section */
+footer{
+    padding: 0 150px;
+}
+
+li{
+    list-style: none;
+}
