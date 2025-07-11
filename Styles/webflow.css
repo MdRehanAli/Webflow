@@ -58,7 +58,7 @@ h2 {
     margin: 0;
 }
 
-p{
+p {
     color: rgba(0, 0, 0, 0.50);
     margin: 20px 0;
 }
@@ -130,7 +130,7 @@ nav {
     margin: 0;
 }
 
-.users{
+.users {
     padding: 0 50px;
     margin-top: 40px;
 
@@ -138,7 +138,7 @@ nav {
 
 /* Ratings Section */
 
-.ratings-section{
+.ratings-section {
     padding: 135px 0;
 }
 
@@ -156,7 +156,7 @@ nav {
     padding-top: 50px;
 }
 
-.review{
+.review {
     background-color: white;
     border-radius: 15px;
     padding: 25px;
@@ -167,6 +167,10 @@ nav {
 .user {
     font-family: "Inter", sans-serif;
     padding-top: 24px;
+}
+
+.comments{
+    font-size: 22px;
 }
 
 .reviewer-image {
@@ -180,13 +184,13 @@ nav {
     padding: 0;
 }
 
-.flex-left{
+.flex-left {
     justify-content: left;
     gap: 20px;
     align-items: center;
 }
 
-.date{
+.date {
     margin: 10px 0 0 0;
 }
 
@@ -223,14 +227,30 @@ nav {
     width: 45%;
 }
 
-input,
-textarea {
-    padding: 10px;
-    width: 100%;
+label{
+    color: black;
+    font-size: 18px;
 }
 
-.width-button{
-    display: block;
+input,
+textarea {
+    /* padding: 10px; */
+    width: 95%;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #D6DDED;
+    background: #FFF;
+    margin:10px 0 20px;
+    padding-left: 32px;
+}
+
+textarea{
+    height: 200px;
+}
+
+.width-button {
+    height: 70px;
     width: 100%;
 }
 
@@ -254,8 +274,19 @@ footer {
     margin: 0;
 }
 
+ul{
+    list-style: none;
+    color: black;
+    width: 80%;
+}
 
-li {
+footer a{
+    color: gray;
+    font-family: "Inter", sans-serif;
+}
+
+/* li {
     list-style: none;
     text-decoration: none;
-}
+    font-family: "Inter", sans-serif;
+} */
