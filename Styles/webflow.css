@@ -1,24 +1,76 @@
 /* Google Fonts */
 
 .raleway-normal {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Shared Style */
-.text-primary{
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    padding: 0 150px;
+}
+
+.text-primary {
     color: #4E47FF;
 }
 
-/* Navigation bar Styles */
-nav{
-    display: flex;
-    justify-content: space-between;
+a{
+    text-decoration: none;
 }
 
-.nav-title{
+button {
+    background: #4E47FF;
+    padding: 12px 36px;
+    border-radius: 10px;
+    margin: 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    line-height: 24px;
+    border: none;
+
+}
+
+/* Header Styles  */
+header{
+    padding: 0 150px;
+    padding-bottom: 200px;
+    background-image: url("../Assets/Hero-bg.png");
+    /* background-repeat: no-repeat; */
+
+}
+
+/* Navigation bar Styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.nav-title {
     font-weight: 900;
     font-size: 34px;
 }
+
+.slider {
+    color: #252432;
+    text-align: center;
+    font-size: 65px;
+    font-weight: 700;
+    margin: 150px 0 40px;
+}
+
+.item-center{
+    display: flex;
+    justify-content: center;
+}
+
